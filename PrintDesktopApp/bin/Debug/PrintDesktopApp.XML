@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PrintDesktopApp</name>
+    </assembly>
+    <members>
+        <member name="T:PrintDesktopApp.Form1">
+            <summary>
+            partial main class
+            </summary>
+            <summary>
+            partial main class
+            </summary>
+        </member>
+        <member name="M:PrintDesktopApp.Form1.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:PrintDesktopApp.Form1"/> class.
+            </summary>
+        </member>
+        <member name="M:PrintDesktopApp.Form1.Form1_Load(System.Object,System.EventArgs)">
+            <summary>
+            main form method
+            </summary>
+            <param name="sender">sender object</param>
+            <param name="e">event arguments,if any</param>
+        </member>
+        <member name="F:PrintDesktopApp.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PrintDesktopApp.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PrintDesktopApp.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:PrintDesktopApp.Models.IUserLoginModel">
+            <summary>
+            exposed public interface for the login existing user model class
+            </summary>
+        </member>
+        <member name="P:PrintDesktopApp.Models.IUserLoginModel.Password">
+            <summary>
+            Gets or sets the user password
+            </summary>
+        </member>
+        <member name="P:PrintDesktopApp.Models.IUserLoginModel.PhoneNumber">
+            <summary>
+            Gets or sets the user phone number
+            </summary>
+        </member>
+        <member name="P:PrintDesktopApp.Models.IUserLoginModel.UserEmail">
+            <summary>
+            Gets or sets the user email address
+            </summary>
+        </member>
+        <member name="P:PrintDesktopApp.Models.IUserLoginModel.SmsCode">
+            <summary>
+            Gets or sets the user sent code
+            </summary>
+        </member>
+        <member name="T:PrintDesktopApp.Models.IUserRegisterModel">
+            <summary>
+            exposed public interface for the register new user model class
+            </summary>
+        </member>
+        <member name="P:PrintDesktopApp.Models.IUserRegisterModel.Password">
+            <summary>
+            Gets or sets the user password
+            </summary>
+        </member>
+        <member name="P:PrintDesktopApp.Models.IUserRegisterModel.PhoneNumber">
+            <summary>
+            Gets or sets the user phone number
+            </summary>
+        </member>
+        <member name="P:PrintDesktopApp.Models.IUserRegisterModel.UserEmail">
+            <summary>
+            Gets or sets the user email address
+            </summary>
+        </member>
+        <member name="P:PrintDesktopApp.Models.IUserRegisterModel.SmsCode">
+            <summary>
+            Gets or sets the user sent code
+            </summary>
+        </member>
+        <member name="T:PrintDesktopApp.Models.UserLoginModel">
+            <summary>
+            model class for login existing user
+            </summary>
+        </member>
+        <member name="P:PrintDesktopApp.Models.UserLoginModel.UserEmail">
+            <summary>
+            Gets or sets the user email address
+            </summary>
+        </member>
+        <member name="P:PrintDesktopApp.Models.UserLoginModel.Password">
+            <summary>
+            Gets or sets the user password field
+            </summary>
+        </member>
+        <member name="P:PrintDesktopApp.Models.UserLoginModel.PhoneNumber">
+            <summary>
+            Gets or sets the user phone number
+            </summary>
+        </member>
+        <member name="P:PrintDesktopApp.Models.UserLoginModel.SmsCode">
+            <summary>
+            Gets or sets the user sent code
+            </summary>
+        </member>
+        <member name="T:PrintDesktopApp.Models.UserRegisterModel">
+            <summary>
+            model class for register new user
+            </summary>
+        </member>
+        <member name="P:PrintDesktopApp.Models.UserRegisterModel.UserEmail">
+            <summary>
+            Gets or sets the user email address
+            </summary>
+        </member>
+        <member name="P:PrintDesktopApp.Models.UserRegisterModel.Password">
+            <summary>
+            Gets or sets the user password field
+            </summary>
+        </member>
+        <member name="P:PrintDesktopApp.Models.UserRegisterModel.PhoneNumber">
+            <summary>
+            Gets or sets the user phone number
+            </summary>
+        </member>
+        <member name="P:PrintDesktopApp.Models.UserRegisterModel.SmsCode">
+            <summary>
+            Gets or sets the user sent code
+            </summary>
+        </member>
+        <member name="T:PrintDesktopApp.Program">
+            <summary>
+            initial class of the application
+            </summary>
+        </member>
+        <member name="M:PrintDesktopApp.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:PrintDesktopApp.SAL.UserLoginSAL">
+            <summary>
+            service layer for the login user-related functionality
+            </summary>
+        </member>
+        <member name="M:PrintDesktopApp.SAL.UserLoginSAL.UserLogin(PrintDesktopApp.Models.IUserLoginModel)">
+            <summary>
+            service layer for the login existing user-related functionality
+            </summary>
+            <param name="userLoginModel">user login model object</param>
+        </member>
+        <member name="T:PrintDesktopApp.SAL.UserRegisterSAL">
+            <summary>
+            service layer for the register user-related functionality
+            </summary>
+        </member>
+        <member name="M:PrintDesktopApp.SAL.UserRegisterSAL.UserRegister">
+            <summary>
+            calls the API in order to register a new user
+            </summary>
+        </member>
+        <member name="T:PrintDesktopApp.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:PrintDesktopApp.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:PrintDesktopApp.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
