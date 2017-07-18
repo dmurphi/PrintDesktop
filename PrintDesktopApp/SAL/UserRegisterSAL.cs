@@ -8,6 +8,7 @@ namespace PrintDesktopApp.SAL
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
+    using Models;
 
     /// <summary>
     /// service layer for the register user-related functionality
@@ -17,7 +18,8 @@ namespace PrintDesktopApp.SAL
         /// <summary>
         /// calls the API in order to register a new user
         /// </summary>
-        public void UserRegister()
+        /// <param name="userRegisterModel">user register model</param>
+        public void UserRegister(IUserRegisterModel userRegisterModel)
         {
             throw new NotImplementedException();
         }
